@@ -1,0 +1,10 @@
+package exlcm;
+
+struct sync_t
+{
+	int8_t	sender;
+	int8_t	receiver;
+	int8_t 	operation;
+	int64_t	number_of_packets;
+	double  timestamp;
+}
